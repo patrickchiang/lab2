@@ -5,3 +5,103 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+	background-image: url(../img/texture-light.png);
+	background-repeat: repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.container {
+	width: 80%;
+	background-color: white;
+	box-shadow: 2px 2px 20px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+img {
+	float: left;
+	padding: 1em;
+	padding-left: 0px;
+}
+
+h1 {
+	font-family: "Boogaloo", sans-serif;
+	font-size: 36px;
+	padding: 10px;
+	color: #116189;
+}
+
+h3 {
+	font-style: italic;
+	font-size: 120%;
+}
+
+nav {
+	clear: both;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	font-size: 18px;
+}
+
+nav a:visited, nav a:link, nav a:hover {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+}
+
+nav ul {
+	width: 100%;
+	background-color: #D74710;
+	border-radius: 5px;
+}
+
+nav li:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
+
+.container p {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#cart {
+	float: right;
+}
+
+.footer p {
+	font-style: italic;
+	font-size: 80%;
+}
+
+.footer {
+	margin-top: 2.5em;
+	border-top: 1px solid lightgray;
+}
+
+h2 {
+	font-size: 24pt;
+	font-weight: bold;
+	color: #116189;
+	padding-top: 20px;
+}
+
+.avatar {
+	margin: 0px;
+	padding: 0px;
+}
+
+h4 {
+	font-size: 18px;
+	color: #116189;
+	font-weight: bold;
+}
